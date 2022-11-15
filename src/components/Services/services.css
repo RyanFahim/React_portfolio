@@ -1,0 +1,111 @@
+.grid-container-services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background: green; */
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.service-card{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    box-shadow:  10px 10px;
+}
+
+.services__title{
+    font-size: 1.20rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.service_description{
+    font-size: .9rem;
+    margin-top: 15px;
+}
+
+
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width:992px) {
+    .grid-container-services{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* background: green; */
+    
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width:768px) {
+    .grid-container-services{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* background: green; */
+    
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .grid-container-services{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* background: green; */
+    
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+
+/* For small devices */
+@media screen and (max-width:350px) {
+    .grid-container-services{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* background: green; */
+    
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+
+    .service-card{
+        padding: 0.5rem 1.5rem;
+        margin: 5px;
+        box-shadow: 7px 7px;
+    }
+
+    .services__title{
+        font-size: 1rem;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .service_description{
+        font-size: .7rem;
+        margin-top: 10px;
+    }
+
+}

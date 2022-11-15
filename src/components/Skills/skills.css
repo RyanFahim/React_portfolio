@@ -1,0 +1,93 @@
+.skills__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: #2196F3; */
+    padding: 10px;
+
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill__column {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    padding: 5rem 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    gap: 2rem;
+    margin: 12px;
+    border-radius: 0.2rem;
+    box-shadow: 10px 10px 5px;
+    transition: all 0.3s linear;
+    /* box-shadow: 10px red; */
+
+}
+
+.skill__column:hover{
+    transform: scale(1.1);
+}
+
+.skill__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+}
+
+.skill__para {
+    font-size: var(--smaller-font-size);
+}
+
+
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width:992px) {
+    .skills__container {
+        padding: auto;
+        max-width: 900px;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width:768px) {
+    .skills__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: auto;
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .skills__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: auto;
+        max-width: 350px;
+    }
+}
+
+
+/* For small devices */
+@media screen and (max-width:350px) {
+    .skills__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: auto;
+        max-width: 300px;
+    }
+    .skill__column{
+        padding: 4rem 2rem;
+        font-size: 1rem;
+    }
+    .skill__title {
+        font-size: var(--h4-font-size);
+        margin-bottom: 0.75rem;
+    }
+    
+    .skill__para {
+        font-size: var(--smaller-font-size);
+    }
+    
+}
