@@ -16,7 +16,13 @@
     margin: 10px;
     border-radius: 10px;
     padding: 1rem 3rem;
-    box-shadow:  10px 10px;
+    box-shadow:  5px 5px;
+    transition: all .3s ease-in-out;
+}
+
+.service-card:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px red;
 }
 
 .services__title{

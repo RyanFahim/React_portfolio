@@ -11,12 +11,13 @@ const Services = () => {
 
                 <div className="service-card">
 
-                    <i class="uil uil-arrow"></i>
+                    <i class="uil uil-code-branch"></i>
                     <div className="services__title">
                         Software Development
                     </div>
                     <p className="service_description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iure!
+                        
+                        Research, ideation, design and then develop a software according to business type for the highest profit
                     </p>
                 </div>
 
@@ -27,19 +28,19 @@ const Services = () => {
                         Web Development
                     </div>
                     <p className="service_description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iure!
+                        Create and develop websites. Simply make your business online and get more clients/customers
                     </p>
                 </div>
 
 
                 <div className="service-card">
 
-                    <i class="uil uil-arrow"></i>
+                    <i class="uil uil-crop-alt"></i>
                     <div className="services__title">
-                        CSS
+                        Software Design
                     </div>
                     <p className="service_description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iure!
+                    Designing software to make it more appealing and make the software user-friendly.
                     </p>
                 </div>
 

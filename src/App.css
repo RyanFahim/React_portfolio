@@ -122,14 +122,17 @@ img{
 }
 
 .section__title{
-  font-size: var(--h1-font-size);
+  font-size: 2.5rem;
   color: var(--title-color);
 }
 
 .section__subtitle{
   display: block;
-  font-size: var(--small-font-size);
+  /* font-size: 1.25rem; */
   margin-bottom: 4rem;
+
+  font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .section__title,

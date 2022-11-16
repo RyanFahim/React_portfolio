@@ -6,6 +6,8 @@ import Services from './components/Services/Services';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Portfolio from './components/Portfolio/Portfolio';
+import GoToTop from './components/GoToTop/GoToTop';
 
 
 
@@ -16,11 +18,13 @@ function App() {
     
 
     <main className="main">
-      {/* <Home/> */}
-      {/* <About/> */}
-      {/* <Skills/> */}
-      {/* <Services/> */}
-      {/* <Contact/> */}
+      <Home/>
+      <About/>
+      <Skills/>
+      <Services/>
+      <Portfolio/>
+      <Contact/>
+      <GoToTop/>
       <Footer/>
     </main>
     </>
