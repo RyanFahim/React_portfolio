@@ -2,67 +2,56 @@ import React from 'react'
 import './skills.css'
 
 const Skills = () => {
-    return (
-        <section className="skills section" id="skills">
-            <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">My Technical Level</span>
+  return (
+    
+    <section className="skills section" id="skills">
+    {/* <h2 className="section__title">Skill</h2> */}
+    <span className="section__subtitle">adjaojaofao</span>
 
-            <div className="skills__container">
+    <div className="container skills__container">
 
-                <div className="skill__column">
-                    <div className="skill__card">
-                    <i class="uil uil-brackets-curly"></i>
-                    <h4 className="skill__title">
-                        Web Development
-                    </h4>
+                {/* First */}
+            <div className="skills__data">
 
-                    <p className='skill__para'>Lorem ipsum dolor sit amet.</p>
-                    </div>
-
+                <div>
+                    <h3 className="skill__title">
+                    <i class="uil uil-java-script skill__icon"></i>
+                    ABC</h3> <br /> <br />
+                    
+                    {/* <span className="skill__subtitle">Lorem ipsum dolor sit amet.</span> */}
+                </div>
+                <div>
+                    <span className="skill__rounder"></span>
+                    <span className="skill__line"></span>
                 </div>
 
-                <div className="skill__column">
-                    <div className="skill__card">
-                    <i class="uil uil-brackets-curly"></i>
-                    <h4 className="skill__title">
-                        Web Development
-                    </h4>
-
-                    <p className='skill__para'>Lorem ipsum dolor sit amet.</p>
-                    </div>
-
-                </div>
-
-                <div className="skill__column">
-                    <div className="skill__card">
-                    <i class="uil uil-brackets-curly"></i>
-                    <h4 className="skill__title">
-                        Web Development
-                    </h4>
-
-                    <p className='skill__para'>Lorem ipsum dolor sit amet.</p>
-                    </div>
-
-                </div>
-
-                <div className="skill__column">
-                    <div className="skill__card">
-                    <i class="uil uil-brackets-curly"></i>
-                    <h4 className="skill__title">
-                        Web Development
-                    </h4>
-
-                    <p className='skill__para'>Lorem ipsum dolor sit amet.</p>
-                    </div>
-
-                </div>
-
-               
             </div>
 
+            {/* Second */}
 
-        </section>
-    )
+            <div className="skills__data">
+                <div></div>
+
+                <div>
+                    <span className="skill__rounder"></span>
+                    <span className="skill__line"></span>
+                </div>
+
+                <div>
+                    <h3 className="skill__title">
+                    <i class="uil uil-java-script skill__icon"></i>
+                        DEF</h3>
+                    {/* <span className="skill__subtitle">Lorem ipsum dolor sit amet.</span> */}
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        
+    </section>
+  )
 }
 
 export default Skills
