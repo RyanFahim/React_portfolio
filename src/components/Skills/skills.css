@@ -42,6 +42,10 @@
     transform: translate(6px, -7px);
 }
 
+.last__line{
+height: 0%;
+}
+
 
 /* BREAKPOINTS */
 

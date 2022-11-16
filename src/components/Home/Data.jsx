@@ -4,11 +4,10 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">RRF</h1>
+        <h1 className="home__title">Raihan Fahim</h1>
 
-        <h3 className="home__subtitle">SD</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur 
-        adipisicing elit. Illum, nulla.</p>
+        <h3 className="home__subtitle">Software Developer</h3>
+        <p className="home__description">I design beautiful things and I love doing it!</p>
 
         <a href="" className="button button--flex">
             Say Hello

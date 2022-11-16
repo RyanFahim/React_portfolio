@@ -16,6 +16,10 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
+.introduction{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
 
 
 /* BREAKPOINTS */
