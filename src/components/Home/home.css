@@ -35,8 +35,8 @@
     /* margin-left: 71px; */
 }
 
-/* .home__subtitle::after{
-    content: "";
+/* .home__subtitle::before{
+    content: '';
     position: absolute;
     width: 70px;
     height: 1px;
@@ -119,6 +119,7 @@
     .home__content{
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
+        margin: auto;
     }
 
     .home__img{
