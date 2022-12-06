@@ -1,6 +1,6 @@
 .portfolio__container{
     display: grid;
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     gap: 3rem;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
 
 .portfolio__image{
     height: 200px;
-    width: 295px;
+    aspect-ratio: 1.5/1;
     border-radius: 1rem;
     margin-bottom: 0.2rem;
 }
@@ -44,7 +44,13 @@
     font-weight: var(--font-normal);
 }
 
+.live_demo{
+    
+}
 
+.portfolio__social_icon_a{
+   
+}
 
 .portfolio__social_icon{
     /* width: 3rem;
@@ -89,3 +95,60 @@
 
     
 }
+
+
+
+
+
+
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width:992px) {
+    .portfolio__container{
+       
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        
+    }
+}
+  /* For medium devices */
+  @media screen and (max-width:768px) {
+    .portfolio__container{
+       
+        grid-template-columns: repeat(2, 1frt);
+        gap: 1rem;
+        
+    }
+  }
+  
+  @media screen and (max-width:576px) {
+    .portfolio__container{
+       
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        
+    }
+  }
+  
+  
+  /* For small devices */
+
+  @media screen and (max-width:420px) {
+    .portfolio__container{
+       
+        grid-template-columns: repeat(1, 1fr);
+      
+        
+    }
+  }
+
+  @media screen and (max-width:350px) {
+    .portfolio__container{
+       
+        grid-template-columns: repeat(1, 1fr);
+      
+        
+    }
+  }
