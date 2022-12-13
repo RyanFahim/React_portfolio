@@ -3,7 +3,22 @@
     align-items: center;
     column-gap: 4rem
 }
+#hand__icon{
+    margin-left: 10px;
+    color: yellow;
+    
+    animation: hand__animation 3s infinite linear alternate-reverse;
+    /* background-color: yellow; */
+}
 
+@keyframes hand__animation {
+    0%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
 
 .about__img{
     width: 350px;
