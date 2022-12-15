@@ -26,7 +26,8 @@
 }
 
 .footer__link:hover{
-    color: var(--title-color--dark);
+    color: var(--pastel-color);
+    transition: 0.5s;
 }
 
 .footer__social{
@@ -42,6 +43,10 @@
     font-size: 1.25rem;
     color: var(--title-color);
     /* justify-content: center; */
+}
+.single-social-icon:hover{
+    color: var(--pastel-color);
+    transition: 0.5s;
 }
 
 .footer__copy{
