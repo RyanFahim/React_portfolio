@@ -87,7 +87,29 @@
 .contact__form-area textarea{
     resize: none;
 }
+#contact__handshake{
+    height: 35px;
+    aspect-ratio: 1/1;
+    margin-left: 10px;
+    color: var(--pastel-color);
+    animation: shake__animation 3s infinite linear alternate-reverse;
+    
+}
 
+
+@keyframes shake__animation {
+    0% {
+        transform: translateY(-20%);
+      }
+    
+      50% {
+        transform: translateY(20%);
+      }
+    
+      100% {
+        transform: translateY(-20%);
+      }
+}
 
 /* BREAKPOINTS */
 

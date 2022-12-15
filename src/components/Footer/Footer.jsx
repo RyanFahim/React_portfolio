@@ -6,7 +6,7 @@ const Footer = () => {
         
         <footer className="footer section">
         <div className="footer__container container">
-            <h2 className="footer__title">Raihan Fahim</h2>
+            <h2 className="footer__title">Rakib Raihan Fahim</h2>
 
             <ul className="footer__list">
                 <li>
@@ -18,7 +18,7 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#skills" className="footer__link">Skillss</a>
+                    <a href="#skills" className="footer__link">Skills</a>
                 </li>
             </ul>
 
@@ -33,7 +33,7 @@ const Footer = () => {
 
 
                 <a href="https://www.linkedin.com/in/rrfahim/" className="footer__social-icon" target="_blank">
-                    <i class="uil uil-linkedin single-social-icon"></i>
+                    <i class="uil uil-linkedin-alt single-social-icon"></i>
                 </a>
             </div>
             <span className="footer__copy">

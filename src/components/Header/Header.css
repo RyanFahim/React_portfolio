@@ -51,8 +51,11 @@
 
 .active-link,
 .nav__link:hover{
+    /* color: var(--title-color-dark); */
+    color: var(--pastel-color)
+}
+.active-link:first-child{
     color: var(--title-color-dark);
-    /* color: yellow; */
 }
 
 

@@ -4,20 +4,23 @@ import weather from '../../assets/weather.jpeg'
 import snake from '../../assets/snake.jpg'
 import movie from "../../assets/movie.jpg"
 import faq from "../../assets/faq.png"
+import restaurant from '../../assets/restaurant.jpg'
 
 
 
 const Portfolio = () => {
 
     const portfolio_data = [
+
         {
             'id': 1,
-            'img': weather,
-            'title': "Weather App",
-            'desc': `Weather app is a app that will show a city's weather situation by searching the city name`,
+            'img': restaurant,
+            'title': "Geritch Restaurant",
+            'desc': `This is a modern and fully responsive website which can be used for Restuarants.`,
             'github_link': "https://github.com/RyanFahim/Weather_app",
-            'live_link': "https://weatherscan.netlify.app/"
+            'live_link': "https://geritch-rrf.netlify.app/"
         },
+        
         {
             'id': 2,
             'img': movie,
@@ -26,9 +29,17 @@ const Portfolio = () => {
             'github_link': "https://github.com/RyanFahim/Snake_game",
             'live_link': "https://moviemania-rrf.netlify.app/"
         },
-
         {
             'id': 3,
+            'img': weather,
+            'title': "Weather App",
+            'desc': `Weather app is a app that will show a city's weather situation by searching the city name`,          
+            'github_link': "https://github.com/RyanFahim/Weather_app",
+            'live_link': "https://weatherscan.netlify.app/"
+        },
+
+        {
+            'id': 4,
             'img': snake,
             'title': "Snake Game",
             'desc': 'A simple classic snake game. Can be played on pc. use the arrow key buttons to play. ',
@@ -36,7 +47,7 @@ const Portfolio = () => {
             'live_link': "https://snakegame-rrf.netlify.app/"
         },
         {
-            'id': 4,
+            'id': 5,
             'img': faq,
             'title': "FAQ",
             'desc': 'An example of frequently asked question is given answer which can be used as module for big projects.',
