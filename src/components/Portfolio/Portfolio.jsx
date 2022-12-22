@@ -5,6 +5,7 @@ import snake from '../../assets/snake.jpg'
 import movie from "../../assets/movie.jpg"
 import faq from "../../assets/faq.png"
 import restaurant from '../../assets/restaurant.jpg'
+import card from '../../assets/card.jpg'
 
 
 
@@ -37,9 +38,17 @@ const Portfolio = () => {
             'github_link': "https://github.com/RyanFahim/Weather_app",
             'live_link': "https://weatherscan.netlify.app/"
         },
-
         {
             'id': 4,
+            'img': card,
+            'title': "Card Animation",
+            'desc': `This module can be used in different projects. Animation happens when it's hovered`,          
+            'github_link': "https://github.com/RyanFahim/Weather_app",
+            'live_link': "https://card-rrf.netlify.app/"
+        },
+
+        {
+            'id': 5,
             'img': snake,
             'title': "Snake Game",
             'desc': 'A simple classic snake game. Can be played on pc. use the arrow key buttons to play. ',
@@ -47,7 +56,7 @@ const Portfolio = () => {
             'live_link': "https://snakegame-rrf.netlify.app/"
         },
         {
-            'id': 5,
+            'id': 6,
             'img': faq,
             'title': "FAQ",
             'desc': 'An example of frequently asked question is given answer which can be used as module for big projects.',
@@ -71,8 +80,9 @@ const Portfolio = () => {
 
                     {portfolio_data.map(i => (
 
+                            <a href={i.live_link} target="_blank" style={{color: "inherit"}}>
 
-                        <div className="grid portfolio__card">
+                        <div className="grid portfolio__card" >
                             <img src={i.img} alt="work_image" className="portfolio__image"  />
                             <h2 className="portfolio__title">{i.title}</h2>
                             <p className="portfolio__description">
@@ -87,12 +97,13 @@ const Portfolio = () => {
                                     <i class="uil uil-github"></i>
                                 </a> */}
 
-                                <a href={i.live_link} className="portfolio__social_icon_a" target="_blank">
+                                {/* <a href={i.live_link} className="portfolio__social_icon_a" target="_blank">
                                     Live demo
-                                </a>
+                                </a> */}
                             </div>
 
                         </div>
+                        </a>
 
                     ))}
 

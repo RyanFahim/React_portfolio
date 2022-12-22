@@ -16,6 +16,8 @@
     align-items: center;
     box-shadow: 10px 10px;
     transition: all 0.3s linear;
+
+    cursor: pointer;
 }
 
 .portfolio__card:hover{
