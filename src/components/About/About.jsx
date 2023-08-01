@@ -22,7 +22,8 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        With over two years of professional experience, I have honed my skills in diverse domains, mastering the art of JavaScript, Node.js, React JS, and Express.js. Passionate about the boundless possibilities of  <span style={{ fontWeight: "bolder" }}>Web Development</span>, I am driven by an unwavering determination to conquer challenges. Eager to create innovative solutions and inspire through my code.
+                        With over two years of professional experience, I have honed my skills in diverse domains, mastering the art of JavaScript, Node.js, React JS, and Express.js. <br />
+                        Passionate about the boundless possibilities of  <span style={{ fontWeight: "bolder" }}>Web Development</span>, I am driven by an unwavering determination to conquer challenges. Eager to create innovative solutions and inspire through my code.
                         In the ever-evolving world of technology, I thrive on turning innovative ideas into reality.
                         I try to code ensuring that it is not just functional, but also maintainable and easy to understand. <br /> <br />
                         <span style={{ fontStyle: "italic" }}>❝ Nothing is unsolvable. Unsolvable only means you haven’t found a way to solve it yet ❞</span>
