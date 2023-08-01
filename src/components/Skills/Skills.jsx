@@ -1,5 +1,8 @@
 import React from 'react'
 import './skills.css'
+import { BiLogoNodejs } from 'react-icons/bi'
+import { DiJavascript1, DiReact } from 'react-icons/di'
+import { SiExpress, SiMongodb } from 'react-icons/si'
 
 
 const Skills = () => {
@@ -18,7 +21,7 @@ const Skills = () => {
 
                 <div>
                     <h3 className="skill__title">
-                    <i class="uil uil-java-script skill__icon"></i>
+                    <DiJavascript1 size={30} />
                     JavaScript</h3> <br /> <br />
                     
                     
@@ -42,8 +45,9 @@ const Skills = () => {
 
                 <div>
                     <h3 className="skill__title">
-                    <i class="uil uil-react skill__icon"></i>
-                        React JS</h3><br /> <br />
+                    {/* <i class="uil uil-react skill__icon"></i> */}
+                    <BiLogoNodejs size={30}/>
+                        Node.js </h3><br /> <br />
                     
                 </div>
                 
@@ -56,8 +60,8 @@ const Skills = () => {
 
                 <div>
                     <h3 className="skill__title">
-                    <i class="uil uil-html5 skill__icon"></i>
-                    HTML</h3> <br /> <br />
+                    <SiExpress size={30}/>
+                    Express JS</h3> <br /> <br />
                     
                     
                 </div>
@@ -80,8 +84,8 @@ const Skills = () => {
 
                 <div>
                     <h3 className="skill__title">
-                    <i class="uil uil-css3-simple skill__icon"></i>
-                        CSS</h3> <br /><br />
+                    <DiReact size={30} />
+                    React JS</h3> <br /><br />
                 </div>
                 
 
@@ -93,9 +97,8 @@ const Skills = () => {
 
                 <div>
                     <h3 className="skill__title">
-                    
-                    <i class='bx bxl-bootstrap skill__icon'></i>
-                    Bootstrap + React Bootstrap</h3> <br /> <br />
+                    <SiMongodb size={30} />
+                    MongoDB</h3> <br /> <br />
                     
                     
                 </div>

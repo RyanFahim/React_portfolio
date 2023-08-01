@@ -6,6 +6,8 @@ import movie from "../../assets/movie.jpg"
 import faq from "../../assets/faq.png"
 import restaurant from '../../assets/restaurant.jpg'
 import card from '../../assets/card.jpg'
+import foodie from '../../assets/foodie.png'
+import node from '../../assets/node.png'
 
 
 
@@ -17,13 +19,22 @@ const Portfolio = () => {
             'id': 1,
             'img': restaurant,
             'title': "Geritch Restaurant",
-            'desc': `This is a modern and fully responsive website which can be used for Restuarants.`,
+            'desc': `This is a modern and fully responsive website which can be used for Restaurants.`,
             'github_link': "https://github.com/RyanFahim/Weather_app",
             'live_link': "https://geritch-rrf.netlify.app/"
         },
-        
+
         {
             'id': 2,
+            'img': foodie,
+            'title': "Foodie",
+            'desc': `Foodie is a live website on a demo food restaurants where user can order food online.`,
+            'github_link': "https://github.com/RyanFahim/Foodie",
+            'live_link': "https://yumfoodie.netlify.app/"
+        },
+        
+        {
+            'id': 3,
             'img': movie,
             'title': "Movie Mania",
             'desc': `Movie-mania is a live website where we can search about movies and it's by searching any movie name.`,
@@ -31,7 +42,7 @@ const Portfolio = () => {
             'live_link': "https://moviemania-rrf.netlify.app/"
         },
         {
-            'id': 3,
+            'id': 4,
             'img': weather,
             'title': "Weather App",
             'desc': `Weather app is a app that will show a city's weather situation by searching the city name`,          
@@ -39,7 +50,7 @@ const Portfolio = () => {
             'live_link': "https://weatherscan.netlify.app/"
         },
         {
-            'id': 4,
+            'id': 5,
             'img': card,
             'title': "Card Animation",
             'desc': `This module can be used in different projects. Animation happens when it's hovered`,          
@@ -48,21 +59,21 @@ const Portfolio = () => {
         },
 
         {
-            'id': 5,
-            'img': snake,
-            'title': "Snake Game",
-            'desc': 'A simple classic snake game. Can be played on pc. use the arrow key buttons to play. ',
-            'github_link': "https://github.com/RyanFahim/Snake_game",
-            'live_link': "https://snakegame-rrf.netlify.app/"
-        },
-        {
             'id': 6,
-            'img': faq,
-            'title': "FAQ",
-            'desc': 'An example of frequently asked question is given answer which can be used as module for big projects.',
-            'github_link': "https://github.com/RyanFahim/Snake_game",
-            'live_link': "https://fqa-example.netlify.app/"
+            'img': node,
+            'title': "Node.js best practices",
+            'desc': 'This is a Node.js example code for the best practices of Node.j ',
+            'github_link': "https://github.com/RyanFahim/Node.js-best-practice",
+            'live_link': "https://github.com/RyanFahim/Node.js-best-practice"
         },
+        // {
+        //     'id': 6,
+        //     'img': faq,
+        //     'title': "FAQ",
+        //     'desc': 'An example of frequently asked question is given answer which can be used as module for big projects.',
+        //     'github_link': "https://github.com/RyanFahim/Snake_game",
+        //     'live_link': "https://fqa-example.netlify.app/"
+        // },
 
 
 
